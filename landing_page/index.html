@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a class="logo" href="#home">
+          <i class="fa-solid fa-gears"></i><!-- Aqui você pode substituir por qualquer ícone que desejar -->
+          INNovaCircuit
+        </a>
+      </h1>
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Início</a></li>
+          <li><a href="#on">Sobre</a></li>
+          <li><a href="#grid-service">Quem somos</a></li>
+          <li><a href="#Gallery">Galeria</a></li>
+          <li><a href="#grid-solutions">Soluções</a></li>
+          <li><a href="#plans">Consultoria</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <script src="https://kit.fontawesome.com/1ca2216c22.js" crossorigin="anonymous"></script>
+
+  <section id="intro" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Consultoria em Automação Inteligente</h2>
+        <h6>O Futuro da Sua Empresa Começa Aqui</h6>
+        <p>Transforma empresas com inteligência artificial, oferecendo
+          soluções personalizadas focadas em automação, inovação e
+          escalabilidade. Atuamos como parceiros estratégicos, 
+          integrando modelos preditivos e fortalecendo a cultura 
+          tecnológica. Nossas soluções são alinhadas às necessidades
+          específicas de cada cliente, gerando inovação e resultados
+          concretos.</p>
+      </div>
+
+      <div class="intro-img ">
+        <img src="./images/gear.svg"  alt="Duas engrenagens uma maior cinza e uma menor na cor amarela">
+      </div>
+
+      <div class="button-experts">
+        <button class="button-for" type="button" onclick="window.location.href='#contact';">Fale com Especialistas</button>
+      </div><br>
+    </div>
+  </section>
+
+  <section  id="on" class="white-bg section">
+    <div class="main-content on-content">
+      <h2>Sobre Nós</h2>
+      <p>É uma consultoria especializada em inteligência artificial, focada em transformar empresas através de 
+        soluções inovadoras. Nosso objetivo é aumentar a eficiência e a competitividade de nossos clientes por 
+        meio da automação e análise avançada de dados.</p>
+      <p>Com uma equipe de especialistas, oferecemos soluções personalizadas que integram modelos preditivos, 
+        adaptando-se às necessidades específicas de cada empresa. Atuamos como parceiros estratégicos, 
+        proporcionando escalabilidade e resultados mensuráveis.</p>
+      <p>Nosso compromisso é fomentar uma cultura tecnológica sólida, impulsionando a inovação contínua. Cada 
+        projeto é desenvolvido para garantir que as empresas estejam preparadas para o futuro, com estratégias 
+        sustentáveis e baseadas em dados.</p>
+    </div>
+  </section>
+
+  <section id="grid-service" class="grid-service main-bg section">
+    <div class="main-content grid- service-content">
+      <h2 class="grid-main-heading">Quem Somos</h2>
+      <p class="grid-description">Somos uma consultoria especializada em inteligência artificial, focada em transformar
+         empresas por meio da integração de tecnologia, cultura e inovação. Ajudamos organizações a alcançarem resultados
+         expressivos com soluções personalizadas e eficazes. Nosso compromisso é gerar valor sustentável através de 
+         estratégias digitais e cultura transformadora.</p><br>
+
+      <div class="grid no-counter">
+          <article>
+            <div class="enterprise">
+              <img src="./images/mission.png" alt="alvo representando a missão da empresa">
+            </div>
+            <h3 class="center-two">Missão</h3>
+          <p>Capacitar empresas a alcançarem resultados transformadores através 
+             da integração de tecnologia, cultura e inteligência artificial.</p>
+          </article>
+          <article>
+            <div class="enterprise">
+              <img src="./images/vision.png" alt="alvo representando a missão da empresa">
+            </div>
+          <h3 class="center-three">Visão</h3>
+        <p>Ser referência global em soluções inovadoras, liderando a transformação
+           digital com foco em resultados sustentáveis.</p>
+        </article>
+        <article>
+          <div class="enterprise">
+            <img src="./images/value.png" alt="alvo representando a missão da empresa">
+          </div>
+          <h3 class="center-on">Valores</h3>
+        <p>Inovação contínua, transparência, excelência em resultados, colaboração
+           e responsabilidade social.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="Gallery" class="Gallery white-bg section">
+    <div class="main-content Gallery-content">
+      <h2 class="grid-main-heading">Galeria de Fotos</h2>
+      <p class="grid-description">Bem-vindo à nossa galeria! Aqui você 
+        encontra momentos que capturam a essência da nossa empresa: 
+        inovação, colaboração e transformação.
+        Explore imagens dos nossos eventos, projetos em ação, equipe em
+        momentos de criação e desenvolvimento de soluções tecnológicas.
+        Cada foto reflete nossa dedicação em criar um futuro mais conectado,
+        impulsionado pela inteligência artificial e pela inovação.</p><br>
+
+      <div class="grid">
+          <div class="gallery-img">
+            <img src="./images/online_event.jpg" alt="Uma pessoa acompanhando uma reunião on-line da empresa.">
+            <span class="gallery-img-on">Reunião on-line</span>
+          </div>
+          <div class="gallery-img">
+            <img src="./images/vision_future.jpg" alt="Mão apontando dedo para engrenagens com escritas, solution, future, vision, goal, aspirations, development,strategy. ">
+            <span class="gallery-img-on">Visão de Futuro</span>
+          </div>
+          <div class="gallery-img">
+            <img src="./images/desk.jpg" alt="Escritorio com mesas marrons e cadeiras pretas e computadores na cor preta.">
+            <span class="gallery-img-on">Nosso Escritório</span>
+          </div>
+          <div class="gallery-img">
+            <img src="./images/marketing.jpg" alt="Notebook cinza, com um sistema aberto, e nesta tela tem graficos com dados sugerindo uma analise de dados. ">
+            <span class="gallery-img-on">Engenharia de Dados</span>
+          </div>
+          <div class="gallery-img">
+            <img src="./images/ESG_solutions.jpg" alt="Duas mãos segurando duas peças de um quebra-cabeça, com um fundo de campo com uma árvore ao meio deste quebra-cabeça.">
+            <span class="gallery-img-on">ESG e Soluções</span>
+          </div>
+          <div class="gallery-img">
+            <img src="./images/client_meeting.jpg" alt="Reunião com cliente, estão em uma mesa em quatro pessoas, duas pessoas sentadas e duas em pé apertando as mãos.">
+            <span class="gallery-img-on">Reunião com Clientes</span>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="grid-solutions" class="grid-solutions main-bg section">
+    <div class="main-content grid- solutions-content">
+      <h2 class="grid-main-heading">Soluções para Seu Negócio</h2>
+      <p class="grid-description">Oferecemos serviços personalizados de inteligência
+        artificial que impulsionam a automação, a inovação e a tomada de decisão.</p><br>
+
+      <div class="grid">
+          <article>
+            <h3>Modelos</h3>
+          <p>Criamos modelos preditivos avançados que ajudam a antecipar tendências
+             de mercado e comportamentos, fornecendo insights estratégicos valiosos
+             para tomar decisões informadas e impulsionar o crescimento.</p>
+          </article>
+          <article>
+          <h3>Automação</h3>
+        <p>Desenvolvemos soluções sofisticadas para automatizar processos, tarefas repetitivas,
+           melhorando a eficiência operacional e reduzindo erros manuais, aumentando 
+           a produtividade geral.</p>
+        </article>
+        <article>
+          <h3>Transformação</h3>
+        <p>Facilitamos a integração de tecnologias inovadoras e promovemos uma cultura de inovação,
+           preparando sua empresa para enfrentar desafios futuros e maximizar oportunidades no mercado
+           digital.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Planos de Consultoria</h2>
+      <p>Escolha o plano ideal para a sua empresa. Oferecemos opções flexíveis de consultoria para atender às suas
+         necessidades tecnológicas.</p>
+  
+      <div class="responsive-table">
+        <table>
+          <caption>Pacotes Disponíveis</caption>
+  
+          <thead>
+            <tr>
+              <th>Plano</th>
+              <th>Recursos Incluídos</th>
+              <th>Valor Mensal</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>Básico</td>
+              <td>Consultoria mensal, suporte remoto limitado.</td>
+              <td>R$ 10.000</td>
+            </tr>
+            <tr>
+              <td>Profissional</td>
+              <td>Consultoria quinzenal, suporte remoto e local, análise de dados.</td>
+              <td>R$ 35.000</td>
+            </tr>
+            <tr>
+              <td>Premium</td>
+              <td>Consultoria semanal, suporte total, desenvolvimento de soluções personalizadas.</td>
+              <td>R$ 50.000</td>
+            </tr>
+          </tbody>
+  
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Planos customizáveis</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div><br><br>
+    <div class="button-experts">
+      <button class="button-six" type="button" onclick="window.location.href='#contact';">Fale com Especialistas</button>
+    </div><br>
+
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Contato</h2>
+        <p>Estamos prontos para transformar seu negócio com soluções inovadoras e personalizadas. Preencha o 
+          formulário abaixo e nossa equipe entrará em contato para entender melhor suas necessidades 
+          e oferecer as melhores estratégias para o seu crescimento.</p>
+      </div>
+      <div class="intro-img" >
+        <img src="./images/contact_us.png" alt="Telefone, @email, carta">
+      </div>
+
+      <div class="button-experts">
+        <button type="button" onclick="window.location.href='#contact';">Fale com Especialistas</button>
+      </div>
+
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          
+          <div class="form-group">
+            <label for="first-name">Primeiro nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Seu e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" cols="30" rows="8" placeholder="Sua mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar mensagem</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+  <section id="blog" class="white-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Blog</h2>
+          <h4>Inovações e Insights</h4>
+        <p>
+          Descubra as últimas tendências, inovações e soluções em tecnologia no nosso blog. Aqui, compartilhamos
+          conhecimentos profundos sobre inteligência artificial, transformação digital, cultura organizacional e
+          muito mais. Este é o espaço para você se manter atualizado e encontrar insights valiosos que transformarão
+          o futuro do seu negócio.</p><br>
+          <div class="button-experts">
+            <button class="button-seven" type="submit">Descubra Mais</button>
+          </div><br>
+      </div>
+      <div class="intro-img">
+        <img src="./images/business.jpg" alt="Local de trabalho, mesa com computador e acessórios.">
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/suelen-maria-kuminck/">
+      <img src="./images/linkedin.svg" alt="Logo Linkedin"></a>
+    </p>
+    <p class="footer-name"><a rel="nofollow" 
+      target="_blank" href="https://www.linkedin.com/in/suelen-maria-kuminck/">Suelen Maria Kuminck</a>
+    </p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+  
+</body>
+</html>
