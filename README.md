@@ -36,4 +36,4 @@ O projeto é organizado da seguinte forma:
 
 ## Contato
 
-Para mais informações, você pode me encontrar no [LinkedIn]:(https://www.linkedin.com/in/suelen-maria-kuminck/).
+Para mais informações, você pode me encontrar no LinkedIn: [Suelen Maria Kuminck](https://www.linkedin.com/in/suelen-maria-kuminck/).
