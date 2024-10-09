@@ -46,6 +46,24 @@ Aqui está uma captura de telas de interface do projeto:
 ![Tela de Login](landing_page/images/start.jpg)
 
 ## Sobre
-![Tela de Login](landing_page/images/on.jpg)
+![Tela de Login](landing_page/images/about.jpg)
+
+## Quem somos
+![Tela de Login](landing_page/images/quem_somos.jpg)
+
+## Galeria
+![Tela de Login](landing_page/images/gallery.jpg)
+
+## Soluções
+![Tela de Login](landing_page/images/solutions.jpg)
+
+## Consultoria
+![Tela de Login](landing_page/images/consultancy.jpg)
+
+## Contato
+![Tela de Login](landing_page/images/contact.jpg)
+
+## Blog
+![Tela de Login](landing_page/images/blog.jpg)
 
 
