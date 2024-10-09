@@ -42,6 +42,10 @@ Para mais informações, você pode me encontrar no LinkedIn: [Suelen Maria Kumi
 
 Aqui está uma captura de telas de interface do projeto:
 
+## Início
 ![Tela de Login](landing_page/images/start.jpg)
+
+## Sobre
+![Tela de Login](landing_page/images/on.jpg)
 
 
